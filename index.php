@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homepage | Dr. G.Mbash</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dr. G.Mbash</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                G Mbash
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Scholarship</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Facult Selection</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">News</a></li>
+                  </ul>
+                </li>
+                <a href="#" class="btn btn-success">Register</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="img/albert1.jpg"
+              class="d-block w-100 opacity-50"
+              alt=""
+              style="height: 500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="img/Plasma-Particle-Physics-Art-Concept.jpg"
+              class="d-block w-100 opacity-50"
+              alt=""
+              style="height: 500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="img/student-in-the-classroom.jpg"
+              class="d-block w-100 opacity-50"
+              alt=""
+              style="height: 500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Main Content Section -->
+      <div class="container text-center py-3">
+        <div class="row g-2">
+          <div class="col-sm-6">
+            <div class="p-3">
+              <h4>About Me</h4>
+              <p>
+                Dr. George Mbaga has been teaching advanced Biology for over 15
+                years and has helped thousands of students to master Biology
+                subject with crystal clear concepts. Don't forget "lasting
+                knowledge results from clear concepts."
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="img/student-in-the-classroom.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-sm-6">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="img/Plasma-Particle-Physics-Art-Concept.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="p-3">
+              <h3>Header 2</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+                commodi aliquid repellat quas necessitatibus, possimus nihil
+                soluta sapiente expedita rem id sint eligendi, eum deleniti est
+                quaerat laboriosam earum quasi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-center text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="#" class="me-4 link-light text-decoration-none">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="me-4 link-light text-decoration-none">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="me-4 link-light text-decoration-none">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="me-4 link-light text-decoration-none">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="me-4 link-light text-decoration-none">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-graduation-cap me-3 text-light"></i>Dr G Mbash
+              </h6>
+              <p>Study biology, biology for living now and forever.</p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">About</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Faculty Selection</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Scholarship</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <i class="fas fa-home me-3 text-light"></i> Dar Es Salaam,
+                Tanzania
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-light"></i>
+                <a href="mailto:" class="text-light text-decoration-none"
+                  >example@example.com</a
+                >
+              </p>
+              <p>
+                <i class="fa fa-phone-alt me-3 text-light"></i>
+                <a
+                  href="tel:+255712483688"
+                  class="text-light text-decoration-none"
+                  >+255712483688</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.025)"
+      >
+        ©
+        <?php
+      echo date("Y");
+      ?>
+        Copyright:
+        <span>Dr G Mbash</span>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
