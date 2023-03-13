@@ -14,5 +14,9 @@ body {
 
 body::after{
     content: "";
-    height: 50px;
+    height: 100px;
+}
+
+.card-img-top {
+    height: 250px !important;
 }
