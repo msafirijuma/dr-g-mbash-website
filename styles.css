@@ -18,5 +18,29 @@ body::after{
 }
 
 .card-img-top {
-    height: 250px !important;
+    height: 200px !important;
+}
+
+.img-carousel {
+    height: 320px !important
+}
+
+@media screen and (min-width:576px) {
+    .card-img-top {
+        height: 220px !important;
+    }
+    
+    .img-carousel {
+        height: 350px !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    .card-img-top {
+        height: 250px !important;
+    }
+
+    .img-carousel {
+        height: 450px !important
+    }
 }
