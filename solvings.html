@@ -16,12 +16,12 @@
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Homepage | Dr. G.Mbash</title>
+    <title>Solvings | Dr. G.Mbash</title>
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Dr. G.Mbash</a>
           <button
@@ -53,23 +53,23 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link" aria-current="page" href="index.html"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
+                    class="nav-link active"
                     aria-current="page"
                     href="premium_features.html"
                     >Premium</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -89,7 +89,7 @@
                     <li><a class="dropdown-item" href="#">News</a></li>
                   </ul>
                 </li>
-                <a href="register.html" class="btn btn-primary">Register</a>
+                <a href="register.php" class="btn btn-primary">Register</a>
               </ul>
             </div>
           </div>
@@ -98,138 +98,57 @@
     </header>
 
     <!-- Main -->
-    <main class="main">
-      <div
-        id="carouselExampleDark"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img
-              src="img/practical3.jpg"
-              class="img-carousel d-block w-100 opacity-50"
-              alt=""
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img
-              src="img/eggsperm2.jpg"
-              class="img-carousel d-block w-100 opacity-50"
-              alt=""
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img
-              src="img/student-in-the-classroom.jpg"
-              class="img-carousel d-block w-100 opacity-50"
-              alt=""
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+    <main class="main pt-5">
+      <div class="container-fluid bg-primary py-2 page-header">
+        <div class="container py-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+              <h1 class="display-3 text-white animated slideInDown">
+                Solvings
+              </h1>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-
-      <!-- Main Content Section -->
-      <div class="container text-center py-3">
-        <div class="row g-2">
-          <div class="col-sm-6">
-            <div class="p-3">
-              <h4>About Me</h4>
-              <p>
-                Dr. George Mbaga has been teaching advanced Biology for over 15
-                years and has helped thousands of students to master Biology
-                subject with crystal clear concepts. Don't forget "lasting
-                knowledge results from clear concepts."
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="p-3">
+      <!-- Categories -->
+      <div class="container py-5">
+        <div class="row d-flex justify-content-center g-4">
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
               <img
-                class="img-fluid"
-                src="img/student-in-the-classroom.jpg"
-                alt=""
+                class="card-img-top"
+                src="img/cell.jpg"
+                alt="Card image cap"
               />
+              <div class="card-body text-center">
+                <h5 class="card-title">PAPERS</h5>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="solved-papers.html"
+                  class="btn btn-primary text-center w-100 text-white"
+                  >View</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row g-2">
-          <div class="col-sm-6">
-            <div class="p-3">
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
               <img
-                class="img-fluid"
-                src="img/Plasma-Particle-Physics-Art-Concept.jpg"
-                alt=""
+                class="card-img-top"
+                src="img/biochemistry2.jpg"
+                alt="Card image cap"
               />
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="p-3">
-              <h3>Header 2</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-                commodi aliquid repellat quas necessitatibus, possimus nihil
-                soluta sapiente expedita rem id sint eligendi, eum deleniti est
-                quaerat laboriosam earum quasi.
-              </p>
+              <div class="card-body text-center">
+                <h5 class="card-title">MARKING SCHEME</h5>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="marking-scheme.html"
+                  class="btn btn-primary text-center w-100 text-white"
+                  >View</a
+                >
+              </div>
             </div>
           </div>
         </div>
